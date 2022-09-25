@@ -66,8 +66,7 @@ p {
     /* text-decoration: line-through; */
 }
 
-.preci-button {
-    border: 1px solid red;
+.price-button {
     display: flex;
     flex-direction: column;
 }
@@ -76,4 +75,5 @@ p {
     border: 1px solid blue;
     display: flex;
     align-items: center;
+    border: 1px solid red;
 }

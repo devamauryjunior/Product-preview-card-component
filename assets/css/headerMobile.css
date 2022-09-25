@@ -63,17 +63,29 @@ p {
     color: var(--dark-grayish-blue);
     font-family: 'Montserrat', sans-serif;
     line-height: 2.2rem;
-    /* text-decoration: line-through; */
 }
 
 .price-button {
     display: flex;
     flex-direction: column;
+    /* border: 1px solid red; */
+    margin-top: 2rem;
 }
 
 .price {
-    border: 1px solid blue;
     display: flex;
     align-items: center;
-    border: 1px solid red;
+    gap: 1.6rem;
+}
+
+.price h2 {
+    font-family: 'Fraunces', serif;
+    font-size: 3rem;
+    color: var(--dark-cyan);
+}
+
+.price span {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    text-decoration: line-through;
 }

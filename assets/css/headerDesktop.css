@@ -1,4 +1,4 @@
-@media screen and (min-width: 1440px) {
+@media screen and (min-width: 1000px) {
     #header {
         flex-direction: row;
         margin-top: 8rem;
@@ -37,5 +37,13 @@
     }
     .mobile {
         display: none;
+    }
+
+    .price-button button {
+        cursor: pointer;
+    }
+
+    .price-button button:hover {
+        background-color: hsl(158, 84%, 25%);
     }
 }

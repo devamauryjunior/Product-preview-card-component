@@ -2,7 +2,6 @@
 body {
     font-size: 1.6rem;
     background-color: var(--cream);
-    overflow: hidden;
 }
 
 p {
@@ -15,7 +14,8 @@ p {
     align-items: center;
     justify-content: center;
     margin: 0 auto;
-    padding: 2.5rem 1.2rem;
+    /* padding: 2.5rem 1.2rem; */
+    padding: 2.5rem 1.2rem .5rem 1.2rem;
 }
 
 #header img {
@@ -72,7 +72,6 @@ p {
     display: flex;
     align-items: center;
     gap: 1.6rem;
-    
 }
 
 .price h2 {
@@ -99,4 +98,10 @@ p {
     color: var(--white);
     border: none;
     background-color: var(--dark-cyan);
+    border-radius: 1rem;
+}
+
+/* DESATIVADOS */
+.desktop {
+    display: none;
 }

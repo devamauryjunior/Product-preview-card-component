@@ -8,4 +8,4 @@ Desafio é construir este componente de cartão de pré-visualização do produt
 </a>
 
 ## Veja como ficou
-[Site](frontend-mentorproduct-preview-card-c.netlify.app)
+[Site](https://frontend-mentorproduct-preview-card-c.netlify.app/)
